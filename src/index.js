@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import LayoutPrimary from "./common/LayoutPrimary";
 import { BrowserRouter as Router } from "react-router-dom"
 // Styles
-
-
+import App from "./App";
 
 ReactDOM.render(<>
     <Router>

@@ -1,17 +1,10 @@
 import React from 'react'
-import {NavLink} from "react-router-dom"
+// logo
 
 const Navigation = () => {
   return (
-    <div>
-      <ul className="lists">
-        <li>
-          <NavLink to = "/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to = "/about">About</NavLink>
-        </li>
-      </ul>
+    <div className='navigation'>
+    Navigation
     </div>
   )
 }

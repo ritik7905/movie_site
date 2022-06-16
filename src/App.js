@@ -1,6 +1,5 @@
 import React from "react";
 import AppRouter from "./AppRouter";
-import Button from "./common/Button";
 // styles
 import "./styles/App.scss"
 

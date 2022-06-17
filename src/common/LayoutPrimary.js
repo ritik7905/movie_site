@@ -6,10 +6,10 @@ const LayoutPrimary = (props) => {
     return (
         <div className='app_layout'>
         {/* navbar */}
-            <Navigation />
+            {/* <Navigation /> */}
             {props.children}
             {/* Footer */}
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

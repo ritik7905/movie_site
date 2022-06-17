@@ -4,12 +4,12 @@
 // ========================//=======================================//
 // custom css
 * {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
 }
 
- ::selection {
+::selection {
     color: $white !important;
-    background: rgba($theme-primary, 0.2);
+    background: #af927c !important;
 }
 
 *,
@@ -89,5 +89,49 @@ body {
 }
 
 .main-app-container {
-    background-color: antiquewhite;
+    background-color: #222326;
+    .container {
+        margin: 0 auto;
+        max-width: 1400px;
+        .title1 {
+            text-align: center;
+            padding: 50px 0;
+            color: #af927c;
+        }
+        .movie-lists {
+            padding: 90px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            .movie_card {
+                width: 400px;
+                border-radius: 10px;
+                overflow: hidden;
+                cursor: pointer;
+                position: relative;
+                .content {
+                    .img {
+                        overflow: hidden;
+                        img {
+                            width: 100%;
+                            transition: all 0.5s;
+                            &:hover {
+                                transform: scale(1.09);
+                            }
+                        }
+                    }
+                }
+                .title5 {
+                    color: white;
+                    position: absolute;
+                    top: 0;
+                    background-color: #2D2E31;
+                    font-weight: 100;
+                    width: 100%;
+                    padding: 20px;
+                }
+            }
+        }
+    }
 }
